@@ -1,19 +1,32 @@
 {
-  "name": "repldb-cli",
-  "version": "1.0.0",
+  "name": "@dainfloop/repldb-cli",
+  "version": "1.0.1",
   "description": "Interact with ReplDB via the command line",
   "main": "index.js",
   "cli": {
     "repldb": "index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "repldb",
+    "replit",
+    "database",
+    "cli"
+  ],
+  "author": "DaInfLoop <mail@dainfloop.is-a.dev>",
   "license": "ISC",
   "dependencies": {
     "@replit/database": "^2.0.3",
     "commander": "^10.0.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaInfLoop/ReplDB-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaInfLoop/ReplDB-CLI/issues"
+  },
+  "homepage": "https://github.com/DaInfLoop/ReplDB-CLI#readme"
 }
