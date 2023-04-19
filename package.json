@@ -1,9 +1,10 @@
 {
-  "name": "@dainfloop/repldb-cli",
+  "name": "repldb-cli",
+  "private": false,
   "version": "1.0.1",
   "description": "Interact with ReplDB via the command line",
   "main": "index.js",
-  "cli": {
+  "bin": {
     "repldb": "index.js"
   },
   "keywords": [
