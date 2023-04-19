@@ -1,7 +1,7 @@
 {
   "name": "repldb-cli",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Interact with ReplDB via the command line",
   "main": "index.js",
   "bin": {
